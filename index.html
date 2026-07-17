@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency convertor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="mainContainer">
+        <h1 class="heading">Currency Converter</h1>
+        <input class="inputBox" type="number" placeholder="Enter value here">
+        <div class="countryContainer">
+<div class="from">
+    <p>FROM</p>
+    <div class="fromCountry">
+    <img src="https://flagsapi.com/US/flat/64.png" alt="flag.">
+    <select name="" class="countrtySelection"></select>
+    </div>
+</div>
+<i class="fa-solid fa-arrow-right-arrow-left"></i>
+<div class="to">
+    <p>TO</p>
+    <div class="toCountry">
+    <img src="https://flagsapi.com/IN/flat/64.png" alt="flag.">
+    <select name="" class="countrtySelection"></select>
+    </div>
+</div>
+        </div>
+        <div class="msg">1USD = 96.36INR</div>
+        <button class="btn">
+            Get Exchange Rate
+        </button>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./code.js"></script>
+</body>
+</html>
